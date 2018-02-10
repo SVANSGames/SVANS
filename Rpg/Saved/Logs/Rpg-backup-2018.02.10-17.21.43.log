@@ -1,0 +1,319 @@
+﻿Log file open, 02/10/18 16:40:23
+LogInit:Display: Running engine for game: Rpg
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1085806898) SRandInit(-1085806898).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.147740
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = true  - Libcurl will use HTTP proxy
+LogInit:  - HttpProxyAddress = '192.168.3.253:8080'
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Софт для студии/Unrial_Engine 4/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.10-13.40.24:335][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.10-13.40.24:335][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.10-13.40.24:344][  0]LogInit: Computer: CLASS602-10
+[2018.02.10-13.40.24:344][  0]LogInit: User: student
+[2018.02.10-13.40.24:344][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.02.10-13.40.24:344][  0]LogInit: High frequency timer resolution =3.222681 MHz
+[2018.02.10-13.40.24:344][  0]LogMemory: Memory total: Physical=11.7GB (12GB approx)
+[2018.02.10-13.40.24:344][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.10-13.40.24:344][  0]LogMemory: Process Physical Memory: 270.37 MB used, 270.37 MB peak
+[2018.02.10-13.40.24:344][  0]LogMemory: Process Virtual Memory: 266.32 MB used, 266.32 MB peak
+[2018.02.10-13.40.24:344][  0]LogMemory: Physical Memory: 2767.13 MB used,  9215.13 MB free, 11982.25 MB total
+[2018.02.10-13.40.24:344][  0]LogMemory: Virtual Memory: 624.36 MB used,  9215.13 MB free, 134217728.00 MB total
+[2018.02.10-13.40.25:122][  0]LogInit: Using OS detected language (ru-RU).
+[2018.02.10-13.40.25:122][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.02.10-13.40.25:125][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2018.02.10-13.40.25:125][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2018.02.10-13.40.26:171][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.10-13.40.26:174][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 11_0)
+[2018.02.10-13.40.26:174][  0]LogD3D11RHI:       224/0/1568 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.02.10-13.40.26:175][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.10-13.40.26:175][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.10-13.40.26:175][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.10-13.40.26:179][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.10-13.40.26:179][  0]LogD3D11RHI:     GPU DeviceId: 0x152 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.10-13.40.26:179][  0]LogWindows: EnumDisplayDevices:
+[2018.02.10-13.40.26:179][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
+[2018.02.10-13.40.26:179][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
+[2018.02.10-13.40.26:179][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2018.02.10-13.40.26:179][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
+[2018.02.10-13.40.26:179][  0]LogD3D11RHI:   Driver Version: 10.18.10.4276 (internal:10.18.10.4276, unified:10.18.10.4276)
+[2018.02.10-13.40.26:180][  0]LogD3D11RHI:      Driver Date: 8-17-2015
+[2018.02.10-13.40.26:180][  0]LogRHI: Texture pool is 705 MB (70% of 1008 MB)
+[2018.02.10-13.40.26:182][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.10-13.40.26:187][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2018.02.10-13.40.26:187][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../../rep/SVANS/Rpg/Intermediate/Shaders/WorkingDirectory/4464/).
+[2018.02.10-13.40.26:187][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/student/AppData/Local/Temp/UnrealShaderWorkingDir/A45A5CD7477A510F3FDE14B3221A0777/'.
+[2018.02.10-13.40.26:187][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.10-13.40.27:519][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.10-13.40.27:598][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.10-13.40.27:676][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.10-13.40.27:755][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.10-13.40.27:839][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.10-13.40.27:919][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.10-13.40.27:999][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.10-13.40.28:077][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.10-13.40.28:157][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.10-13.40.28:241][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.10-13.40.28:326][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.10-13.40.28:410][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.10-13.40.28:497][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.10-13.40.28:582][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.10-13.40.28:665][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.10-13.40.28:834][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.10-13.40.28:834][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.10-13.40.28:903][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.10-13.40.29:105][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.10-13.40.29:162][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.10-13.40.29:243][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.10-13.40.29:326][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.10-13.40.29:405][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.10-13.40.29:489][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.10-13.40.29:490][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.10-13.40.31:187][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.10-13.40.31:306][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/student/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.10-13.40.31:306][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.10-13.40.31:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../rep/SVANS/Rpg/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.10-13.40.31:306][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.10-13.40.31:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../rep/SVANS/Rpg/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.10-13.40.31:306][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.10-13.40.31:326][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.10-13.40.31:340][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.10-13.40.31:354][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.10-13.40.31:354][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.10-13.40.31:355][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.10-13.40.31:355][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.10-13.40.31:748][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.10-13.40.31:873][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.10-13.40.32:410][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.10-13.40.32:506][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.10-13.40.32:616][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.10-13.40.32:616][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.10-13.40.32:616][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.10-13.40.33:350][  0]LogNetVersion: Rpg , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2515200283)
+[2018.02.10-13.40.33:412][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2018.02.10-13.40.33:462][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.022794 seconds
+[2018.02.10-13.40.33:469][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.10-13.40.33:469][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.02.10-13.40.33:469][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.10-13.40.33:579][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.10-13.40.39:449][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.10-13.40.39:545][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.10-13.40.40:710][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.10-13.40.41:338][  0]SourceControl: Info Source control is disabled
+[2018.02.10-13.40.44:313][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.10-13.40.45:486][  0]LogEngine: Initializing Engine...
+[2018.02.10-13.40.45:487][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.10-13.40.45:730][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.10-13.40.45:730][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.10-13.40.45:986][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.10-13.40.45:991][  0]LogInit: No audio devices found!
+[2018.02.10-13.40.46:040][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/student/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.10-13.40.46:048][  0]LogInit: Texture streaming: Enabled
+[2018.02.10-13.40.46:278][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.10-13.40.46:651][  0]LogInit: Transaction tracking system initialized
+[2018.02.10-13.40.47:185][  0]BlueprintLog: New page: Editor Load
+[2018.02.10-13.40.49:461][  0]LocalizationService: Info Localization service is disabled
+[2018.02.10-13.40.50:849][  0]LogConsoleResponse:Display: 
+[2018.02.10-13.40.51:056][  0]LogFileCache: Scanning file cache for directory 'D:/rep/SVANS/Rpg/Content/' took 0.01s
+[2018.02.10-13.40.51:056][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.10-13.40.51:056][  0]LogCook:Display: Mobile HDR setting 0
+[2018.02.10-13.40.53:247][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.10-13.40.53:248][  0]LightingResults: New page: Lighting Build
+[2018.02.10-13.40.53:286][  0]MapCheck: New page: Map Check
+[2018.02.10-13.40.53:286][  0]LightingResults: New page: Lighting Build
+[2018.02.10-13.40.53:566][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.10-13.40.53:567][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.02.10-13.40.53:573][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.10-13.40.53:605][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.10-13.40.53:647][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.793ms to complete.
+[2018.02.10-13.40.53:647][  0]LogFileHelpers: Loading map 'Template_Default' took 0.400
+[2018.02.10-13.40.53:692][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.10-13.40.53:996][  0]LogCollectionManager: Loaded 0 collections in 0.000796 seconds
+[2018.02.10-13.40.54:081][  0]LogFileCache: Scanning file cache for directory 'D:/rep/SVANS/Rpg/Saved/Collections/' took 0.01s
+[2018.02.10-13.40.54:081][  0]LogFileCache: Scanning file cache for directory 'D:/rep/SVANS/Rpg/Content/Developers/student/Collections/' took 0.01s
+[2018.02.10-13.40.54:081][  0]LogFileCache: Scanning file cache for directory 'D:/rep/SVANS/Rpg/Content/Collections/' took 0.01s
+[2018.02.10-13.40.54:081][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.02.10-13.40.54:093][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2330 classes and 493 folders.
+[2018.02.10-13.40.54:154][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.02.10-13.40.54:196][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.02.10-13.40.54:267][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.10-13.40.54:272][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.10-13.40.54:277][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.10-13.40.54:380][  0]LogRenderer: Reallocating scene render targets to support 888x868 NumSamples 1 (Frame:1).
+[2018.02.10-13.40.54:909][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.10-13.40.55:038][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.10-13.40.55:038][  0]LogLoad: (Engine Initialization) Total time: 33.60 seconds
+[2018.02.10-13.40.55:038][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2018.02.10-13.40.55:038][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.10-13.40.55:054][  0]LogOcInput: OculusInput pre-init called
+[2018.02.10-13.40.55:054][  0]LogHMD: Starting GearVRController plugin
+[2018.02.10-13.40.55:070][  0]LogAssetRegistry: Asset discovery search completed in 21.6813 seconds
+[2018.02.10-13.40.55:072][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.10-13.40.55:072][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2018.02.10-13.40.55:073][  0]SourceControl: Info On branch SVANS
+[2018.02.10-13.40.55:073][  0]SourceControl: Info Your branch is up-to-date with 'origin/SVANS'.
+[2018.02.10-13.40.55:073][  0]SourceControl: Info Changes not staged for commit:
+[2018.02.10-13.40.55:073][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2018.02.10-13.40.55:073][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.02.10-13.40.55:073][  0]SourceControl: Info 	modified:   Rpg/Intermediate/CachedAssetRegistry.bin
+[2018.02.10-13.40.55:073][  0]SourceControl: Info 	modified:   Rpg/Saved/Logs/Rpg.log
+[2018.02.10-13.40.55:073][  0]SourceControl: Info Untracked files:
+[2018.02.10-13.40.55:073][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.02.10-13.40.55:073][  0]SourceControl: Info 	Rpg/Saved/Config/CrashReportClient/UE4CC-Windows-81D6174B4D08A51EAB3640A5236FC72A/
+[2018.02.10-13.40.55:073][  0]SourceControl: Info 	Rpg/Saved/Logs/Rpg-backup-2018.02.10-16.40.23.log
+[2018.02.10-13.40.55:073][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.02.10-13.40.55:073][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.02.10-13.40.58:061][ 94]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-13.40.58:292][ 94]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.10-13.40.59:269][106]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.10-13.41.00:996][125]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.10-13.41.01:139][125]LogAIModule: Creating AISystem for world Map
+[2018.02.10-13.41.01:175][125]Cmd: MAP LOAD FILE="../../../../../../rep/SVANS/Rpg/Content/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.10-13.41.01:175][125]LightingResults: New page: Lighting Build
+[2018.02.10-13.41.01:176][125]LoadErrors: New page: Loading map: Map.umap
+[2018.02.10-13.41.01:176][125]MapCheck: New page: Map Check
+[2018.02.10-13.41.01:176][125]LightingResults: New page: Lighting Build
+[2018.02.10-13.41.01:201][125]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.10-13.41.01:230][125]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.10-13.41.01:277][125]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.452ms to complete.
+[2018.02.10-13.41.01:277][125]LogFileHelpers: Loading map 'Map' took 0.103
+[2018.02.10-13.41.12:775][397]SourceControl: Info fatal: D:/Софт для студии/Unrial_Engine 4/UE_4.16/Engine/Content/: 'D:/Софт для студии/Unrial_Engine 4/UE_4.16/Engine/Content/' is outside repository
+[2018.02.10-13.41.12:855][397]EditorErrors:Warning: Warning No assets to check in!
+[2018.02.10-13.41.28:290][768]MapCheck: New page: Map Check
+[2018.02.10-13.41.28:312][768]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.10-13.41.28:313][768]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.10-13.41.28:335][768]LightingResults: New page: Lighting Build - Feb 10, 2018, 7:41:28 PM
+[2018.02.10-13.41.28:525][768]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.10-13.41.28:710][768]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.10-13.41.28:784][768]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.10-13.41.31:655][768]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2018.02.10-13.41.31:765][768]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8008
+
+Server stack trace: 
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   в System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   в System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   в System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   в System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   в NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2018.02.10-13.41.36:937][768]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.10-13.41.36:937][768]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4464
+[2018.02.10-13.41.47:837][768]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.10-13.41.47:837][768]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.10-13.41.47:837][768]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.10-13.41.47:837][768]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.10-13.41.47:837][768]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.10-13.41.47:837][768]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.10-13.41.48:332][768]LogEditorBuildUtils: Build time 0:20
+[2018.02.10-13.41.48:340][768]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.02.10-13.41.48:353][768]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.02.10-13.41.48:379][769]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2018.02.10-13.41.48:390][769]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2018.02.10-13.41.48:527][770]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.02.10-13.41.48:538][770]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.02.10-13.41.48:559][771]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.02.10-13.41.48:569][771]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.02.10-13.41.53:343][773]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-13.41.53:538][773]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2018.02.10-13.41.53:733][773]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2018.02.10-13.41.55:451][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.10-13.41.56:907][797]Job is a success!
+[2018.02.10-13.41.57:511][798]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.02.10-13.41.57:511][798]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.02.10-13.41.57:511][798]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.02.10-13.41.57:511][798]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.02.10-13.41.57:511][798]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.02.10-13.41.57:511][798]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.02.10-13.41.57:511][798]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128)
+[2018.02.10-13.41.57:511][798]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X8)
+[2018.02.10-13.41.57:511][798]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2018.02.10-13.41.57:872][798]Lightmass on CLASS602-10: 1.47 sec total, 122 ms importing, 14 ms setup, 145 ms photons, 961 ms processing, 0 ms extra exporting [19/19 mappings]. Threads: 3.80 sec total, 554 ms processing.
+[2018.02.10-13.41.57:907][798]LogStaticLightingSystem: Illumination: 29.4 sec (51 ms encoding lightmaps, 75 ms encoding shadowmaps)
+[2018.02.10-13.41.57:908][798]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.1 MB streaming, 0.1 MB non-streaming), 6 textures
+[2018.02.10-13.41.57:908][798]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2018.02.10-13.41.58:839][798]DumpUnbuiltLightIteractions
+[2018.02.10-13.41.58:840][798]Lights with unbuilt interactions: 0
+[2018.02.10-13.41.58:840][798]
+[2018.02.10-13.41.58:840][798]Primitives with unbuilt interactions: 0
+[2018.02.10-13.41.58:845][799]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.10-13.41.58:846][799]MapCheck: New page: Map - Feb 10, 2018, 7:41:58 PM
+[2018.02.10-13.41.58:893][799]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.862ms to complete.
+[2018.02.10-13.42.17:226][ 11]Cmd: DELETE
+[2018.02.10-13.42.17:226][ 11]Cmd: ACTOR DELETE
+[2018.02.10-13.42.17:227][ 11]LogEditorActor: Deleted Actor: Brush
+[2018.02.10-13.42.17:312][ 11]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2018.02.10-13.42.21:871][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map" FILE="../../../../../../rep/SVANS/Rpg/Content/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.10-13.42.21:931][112]LogSavePackage: Save=34.29ms
+[2018.02.10-13.42.21:931][112]LogSavePackage: Moving '../../../../../../rep/SVANS/Rpg/Saved/Map6AD81F7742A4432413ACD2B3A953C25F.tmp' to '../../../../../../rep/SVANS/Rpg/Content/Map.umap'
+[2018.02.10-13.42.21:936][112]LogSavePackage:Display: Finished SavePackage ../../../../../../rep/SVANS/Rpg/Content/Map.umap
+[2018.02.10-13.42.21:946][112]LogFileHelpers: Saving map 'Map' took 0.124
+[2018.02.10-13.42.21:950][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_BuiltData" FILE="../../../../../../rep/SVANS/Rpg/Content/Map_BuiltData.uasset" SILENT=true
+[2018.02.10-13.42.21:979][112]LogSavePackage: Save=25.63ms
+[2018.02.10-13.42.21:979][112]LogSavePackage: Moving '../../../../../../rep/SVANS/Rpg/Saved/Map_BuiltDataCBA1F3914BEDA01D58E53D99F42C4EB9.tmp' to '../../../../../../rep/SVANS/Rpg/Content/Map_BuiltData.uasset'
+[2018.02.10-13.42.21:984][112]LogSavePackage:Display: Finished SavePackage ../../../../../../rep/SVANS/Rpg/Content/Map_BuiltData.uasset
+[2018.02.10-13.42.26:717][219]SourceControl: Info fatal: D:/Софт для студии/Unrial_Engine 4/UE_4.16/Engine/Content/: 'D:/Софт для студии/Unrial_Engine 4/UE_4.16/Engine/Content/' is outside repository
+[2018.02.10-13.42.40:800][219]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.02.10-13.42.40:844][219]SourceControl: Info [SVANS 12c3edf] second push
+[2018.02.10-13.42.40:844][219]SourceControl: Info  Committer: Студент <student@classvivt.loc>
+[2018.02.10-13.42.40:844][219]SourceControl: Info Your name and email address were configured automatically based
+[2018.02.10-13.42.40:844][219]SourceControl: Info on your username and hostname. Please check that they are accurate.
+[2018.02.10-13.42.40:844][219]SourceControl: Info You can suppress this message by setting them explicitly. Run the
+[2018.02.10-13.42.40:844][219]SourceControl: Info following command and follow the instructions in your editor to edit
+[2018.02.10-13.42.40:844][219]SourceControl: Info your configuration file:
+[2018.02.10-13.42.40:844][219]SourceControl: Info     git config --global --edit
+[2018.02.10-13.42.40:844][219]SourceControl: Info After doing this, you may fix the identity used for this commit with:
+[2018.02.10-13.42.40:844][219]SourceControl: Info     git commit --amend --reset-author
+[2018.02.10-13.42.40:844][219]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2018.02.10-13.42.40:844][219]SourceControl: Info  create mode 100644 Rpg/Content/Map_BuiltData.uasset
+[2018.02.10-13.42.40:847][219]SourceControl: Info Commited [SVANS 12c3edf] second push.
