@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-70E5A8B14A355A283DE0568F6A6F2160_0000</CrashGUID>
+		<ProcessId>4808</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>74</SecondsSinceStart>
+		<GameName>UE4-Rpg</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.16.3-3561208+++UE4+Release-4.16</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>1049</LanguageLCID>
+		<AppDefaultLocale>ru-RU</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.16-CL-3561208</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName />
+		<BaseDir>D:/Софт для студии/Unrial_Engine 4/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>D:/Софт для студии/Unrial_Engine 4/UE_4.16/</RootDir>
+		<MachineId>B06C3DCF48213CDA3C71C99AEBB1F967</MachineId>
+		<LoginId>b06c3dcf48213cda3c71c99aebb1f967</LoginId>
+		<EpicAccountId />
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;TutorialsBrowser&quot; Label=&quot;Tutorials&quot; Content=STutorialsBrowser</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 674] &nl;Illegal call to DoesPackageExist: &apos;../../../../../../rep/SVANS/Rpg/Rpg.uproject&apos; is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>2</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i3-3220 CPU @ 3.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 8.1</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>12564299776</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>12</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>8147718144</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140735750815744</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>956399616</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1126981632</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>980471808</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1060859904</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636538614679030000</TimeOfCrash>
+		<bAllowToBeContacted>0</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 8.1  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
